@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">卡片天气</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="action_new">添加</string>
+    <string name="action_place">自动定位</string>
+    <string name="action_alarm">定时提醒</string>
+    <string name="action_email">反馈</string>
+    <string name="beiju1">查询上限到了</string>
+    <string name="beiju2">没有查询到结果</string>
+    <string name="beiju3">没有该城市的PM2.5信息</string>
+    <string name="no">没有查询到</string>
+    <string name="you">优</string>
+    <string name="liang">良</string>
+    <string name="qing">轻度污染</string>
+    <string name="zhong">中度污染</string>
+    <string name="heavy">重度污染</string>
+
+</resources>

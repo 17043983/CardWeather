@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.weather.MainActivity" >
+
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/action_new"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/auto"
+        android:icon="@drawable/ic_action_place"
+        android:title="@string/action_place"
+        app:showAsAction="always"/>
+     <item
+        android:id="@+id/alarm"
+        android:icon="@drawable/ic_action_add_alarm"
+        android:title="@string/action_alarm"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/email"
+        android:icon="@drawable/ic_action_email"
+        android:title="@string/action_email"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom"/>
+
+</menu>
