@@ -1,5 +1,6 @@
 package org.paulchang.weather;
 
+
 import android.app.Notification;
 import android.app.Notification.Builder;
 import android.app.NotificationManager;
@@ -15,7 +16,7 @@ public class AlarmBroadCastReceiver extends BroadcastReceiver {
 	@Override
 	public void onReceive(Context context, Intent intent) {
 
-		System.out.println("broadcast启动了");
+		System.out.println("broadcast启动�?);
 		// id = bundle.getInt("id", 1);
 		Intent intentTarget = new Intent(context, MainActivity.class);
 		PendingIntent contentIntent = PendingIntent.getActivity(context, 0,
@@ -23,12 +24,12 @@ public class AlarmBroadCastReceiver extends BroadcastReceiver {
 		NotificationManager nm = (NotificationManager) context
 				.getSystemService(Context.NOTIFICATION_SERVICE);
 		Builder notification = new Notification.Builder(context);
-		// 设置提示框的状态
+		// 设置提示框的状�?
 		((Builder) notification)
 				.setAutoCancel(true)
-				.setTicker("看一下今天的天气，关心一下远方的人")
+				.setTicker("看一下今天的天气，关心一下远方的�?)
 				.setSmallIcon(R.drawable.ic_launcher)
-				.setContentTitle("看一下今天的天气，关心一下远方的人")
+				.setContentTitle("看一下今天的天气，关心一下远方的�?)
 
 				.setDefaults(
 						Notification.DEFAULT_SOUND
