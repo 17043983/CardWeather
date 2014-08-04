@@ -53,7 +53,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="org.paulchang.weather.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,19 +63,23 @@
         </activity>
         <activity
             android:name="org.paulchang.weather.Provinces"
-            android:label="省名" >
+            android:label="省名"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="org.paulchang.weather.City"
-            android:label="城市名" >
+            android:label="城市名"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="org.paulchang.weather.District"
-            android:label="区县名" >
+            android:label="区县名"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="org.paulchang.weather.findme"
             android:label="联系我"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity

@@ -336,15 +336,12 @@ public class MainActivity extends ActionBarActivity implements Callback {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
 			city = ((Location) getApplication()).mylocaitonlistener.getCity();
-
 			insert(city);
 			Message msg = handler.obtainMessage();
 			msg.what = 2;
 			handler.sendMessage(msg);
 			System.out.println("getcity11" + city);
-
 		}
 	}
 
